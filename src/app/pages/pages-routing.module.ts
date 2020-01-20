@@ -1,7 +1,6 @@
 // Angular
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PricingPlansComponent } from 'app/shared/components/pricing-plans/pricing-plans.component';
 
 // Components
 import { PagesAboutComponent } from './pages-about/pages-about.component';
@@ -14,6 +13,7 @@ import { PagesTorOnionComponent } from './pages-tor-onion/pages-tor-onion.compon
 import { PaymentOptionsComponent } from './pages-donate/payment-options/payment-options.component';
 import { StripeFormComponent } from '../shared/components/stripe-form/stripe-form.component';
 import { BitcoinFormComponent } from '../shared/components/bitcoin-form/bitcoin-form.component';
+import { PricingPlansComponent } from '../shared/components/pricing-plans/pricing-plans.component';
 
 const routes: Routes = [
   { path: 'about', component: PagesAboutComponent },
